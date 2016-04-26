@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    int i=0;
+    int mod;
+    
+    cout<< "Masukan bilangan genap   =";
+    cin>>n;
+    
+    while(n>=i) {
+        mod=n%2;
+        if(mod==0){
+            cout<<n<<"  ";
+    }
+    n--;
+}
+
+    cout<<endl;
+    
+return 0;
